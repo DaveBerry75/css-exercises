@@ -7,3 +7,13 @@
     color: #00f;
     font-size: 36px;
 }
+
+.size {
+    font-size: 24px;
+}
+
+#green {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
