@@ -18,7 +18,12 @@ body {
 
 .content {
   background: #e3f4ff;
-  margin: 16px 8px;
+  padding: 16px 8px;
+}
+
+.title,
+.content {
+  margin-bottom: 8px;
 }
 
 .button-container {
