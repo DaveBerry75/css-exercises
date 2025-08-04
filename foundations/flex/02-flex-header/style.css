@@ -11,7 +11,11 @@
 }
 
 .left-links {
-  
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }
 
 .right-links ul {
