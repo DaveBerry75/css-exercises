@@ -22,6 +22,11 @@
   display: flex;
 }
 
+.left-links ul,
+.right-links ul {
+  gap: 8px;
+}
+
 .logo {
   font-size: 48px;
   font-weight: 900;
