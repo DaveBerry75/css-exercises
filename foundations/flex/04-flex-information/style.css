@@ -25,15 +25,24 @@ img {
   background: #eee;
 }
 
-.container {
+.container,
+.itemsContainer {
   display: flex;
+  justify-content: center;
 }
 
 .title {
-  margin: 32px auto;
+  margin: 32px 0 32px 0;
 }
 
 .plantContainer {
   display: flex;
   flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.itemsContainer {
+  gap: 52px;
 }
