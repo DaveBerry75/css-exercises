@@ -49,26 +49,21 @@ ul {
 
 /* My solution */
 
-.container {
+.header,
+.left,
+.right,
+.links {
   display: flex;
-  align-items: center;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
+  gap: 16px;
 }
 
 .header {
   padding: 8px;
-  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.links,
-.button {
-  gap: 16px;
+.links {
+  padding: 0;
 }
 
-.button {
-  margin-left: auto;
-}
