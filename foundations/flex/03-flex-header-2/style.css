@@ -61,4 +61,10 @@ ul {
 
 .header {
   padding: 8px;
+  gap: 16px;
+}
+
+.links,
+.button {
+  gap: 16px;
 }
