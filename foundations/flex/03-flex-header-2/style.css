@@ -46,3 +46,9 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* My solution */
+
+.container {
+  display: flex;
+}
