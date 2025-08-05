@@ -45,12 +45,20 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* My solution */
 
 .container {
   display: flex;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 8px;
 }
