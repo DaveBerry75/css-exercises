@@ -68,3 +68,7 @@ ul {
 .button {
   gap: 16px;
 }
+
+.button {
+  margin-left: auto;
+}
