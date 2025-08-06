@@ -80,6 +80,16 @@ button.cancel {
 
 .header {
   display: flex;
-  justify-content: flex-end;
-  flex-shrink: 3;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
 }
+
+.icon {
+  flex-shrink: 0;
+}
+
+.content {
+  margin: 10px;
+}
+
