@@ -43,3 +43,11 @@ ul a {
   display: flex;
   justify-content: space-between;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
