@@ -44,12 +44,8 @@ body {
   align-items: center;
 }
 
-.content {
-  display: flex;
-  flex: 1;
-}
-
 .sidebar {
+  display: flex;
   flex-shrink: 0;
   padding: 16px;
 }
@@ -71,15 +67,24 @@ body {
   margin-bottom: 16px;
 }
 
+.content {
+  display: flex;
+  flex: 1;
+  /* flex-wrap: wrap; */
+  /* This will push the footer to the bottom of the page */
+}
+
+/* The values applied to card-container plus the width value applied to card allow the cards to be 2x3 on big screens and wrap to 3x2 on smaller screens */
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 30px;
   padding: 48px;
 }
 
-.card-container .card {
-  flex-basis: 25%;
+.card {
+  width: 300px;
+  padding: 15px;
 }
 
 .footer {
